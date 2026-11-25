@@ -147,7 +147,7 @@ Events are defined in [`contracts/account/src/events.rs`](../../contracts/accoun
 
 Issue #552 lists ticket holders and waitlists. Neither exists in the compiled contracts at this revision:
 
-- **Ticket holders.** No `Ticket` type, ticket storage key, or ticket event exists in [`contracts/shade/src/types.rs`](../../contracts/shade/src/types.rs) or [`contracts/shade/src/events.rs`](../../contracts/shade/src/events.rs). The only trace is the enum variant `PlatformFeeRouteKind::TicketPurchase` (`route_kind = 2` in `PlatformFeeRoutedEvent`), which no storage key or function uses to hold a ticket holder. The file `contracts/shade/src/interface.rs` mentions tickets, but `contracts/shade/src/lib.rs` does not compile it; the live interface is [`shade_interface.rs`](../../contracts/shade/src/shade_interface.rs).
+- **Ticket holders.** No `Ticket` type, ticket storage key, or ticket event exists in [`contracts/shade/src/types.rs`](../../contracts/shade/src/types.rs) or [`contracts/shade/src/events.rs`](../../contracts/shade/src/events.rs). The only trace is the enum variant `PlatformFeeRouteKind::TicketPurchase` (`route_kind = 2` in `PlatformFeeRoutedEvent`), which no storage key or function uses to hold a ticket holder.
 - **Waitlists.** No waitlist type, key, function, or event exists in either contract.
 - **Subscriptions.** `TransactionType::SubscriptionCharge` and `PlatformFeeRouteKind::Subscription` exist as enum variants only. No subscription storage or event exists.
 

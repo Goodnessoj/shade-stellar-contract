@@ -99,7 +99,7 @@ pub enum ContractError {
 
 Inspect example/escrow/src/from_shade/entrypoints.rs to review the functions the module exposed on the hub.
 
-1. **Add Signatures to ShadeTrait in contracts/shade/src/interface.rs:**
+1. **Add Signatures to ShadeTrait in contracts/shade/src/shade_interface.rs:**
    `
 ust
    // --- Escrow Entrypoints ---
