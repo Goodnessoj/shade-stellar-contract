@@ -68,6 +68,7 @@
   - [Accepting Payments](guides/accepting-payments.md)
   - [Contract Bindings](guides/contract-bindings.md)
   - [Indexing Events](guides/indexing-events.md)
+  - [Deploying Ticketing Contracts](guides/deploying-ticketing-contracts.md)
   - [Accounting and Reconciliation](guides/accounting-and-reconciliation.md)
   - [Webhooks](guides/webhooks.md)
 - [Operations](operations/README.md)
